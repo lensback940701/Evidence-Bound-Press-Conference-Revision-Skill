@@ -1,5 +1,127 @@
 # Evidence-Bound-Press-Conference-Revision-Skill
 An evidence-bound academic revision skill for diagnosing and reducing defensive prose without weakening scholarly caution. It surfaces contributions, trims redundant caveats and process narration, preserves claim ceilings, evidence status, scope conditions and rival explanations, and supports auditable, tracked manuscript revision.
+
+## 中文说明
+
+`press-conference-revision-evidence-bound` 是一个面向学术论文修改的实验性 skill，主要用于识别和减少论文中的防御性写作，使已经得到证据支持的研究贡献表达得更加直接、清晰。
+
+它关注的不是把论文写得更强势，而是：
+
+* 减少重复的免责声明、过度限定和预防性辩护；
+* 提前呈现论文真正有证据支持的核心贡献；
+* 保留必要的研究边界、证据状态和竞争性解释；
+* 防止修改过程中无意提高因果性、确定性、普遍性或创新性表述；
+* 对重要修改进行可追踪的 claim/evidence 检查。
+
+核心原则可以概括为：
+
+> **提高贡献的可见性，而不提高证据允许的 claim ceiling。**
+
+---
+
+## 简单使用方法
+
+### 1. 准备论文
+
+建议提供完整论文，最好同时明确：
+
+* 论文最核心的贡献；
+* 当前最希望修改的章节；
+* 哪些内容允许修改；
+* 哪些概念、证据、引文或作者判断不能改变。
+
+如果已经有审稿意见、修改说明或项目专用 guardrails，也可以一并提供。
+
+### 2. 先进行诊断
+
+推荐先要求 agent 进行只读检查，而不是直接修改，例如：
+
+```text
+请使用 press-conference-revision-evidence-bound，
+对这篇论文进行 defensive writing audit。
+
+暂时不要修改正文。
+
+请识别可能存在的防御性写作，并区分：
+KEEP / TIGHTEN / REFRAME / RELOCATE / CUT / QUERY。
+
+特别检查修改是否可能改变 claim ceiling、
+evidence status、scope conditions 或 citation role。
+```
+
+### 3. 人工确认后再修改
+
+阅读诊断结果，决定哪些部分确实需要修改。
+
+随后可以要求：
+
+```text
+根据已经确认的 audit 结果修改论文。
+
+目标是提高核心贡献的可见性并减少不必要的防御性表达，
+但不得提高原有 claim ceiling。
+
+必须保留必要的证据边界、scope conditions、
+rival explanations、citation functions 和 source-status distinctions。
+
+修改完成后执行 regression check。
+```
+
+### 4. 检查最终结果
+
+不要只检查语言是否更加流畅，还应重点确认：
+
+* 原本有限度的判断是否被改成了更强的结论；
+* `suggest / indicate / may` 等证据状态是否被不当升级；
+* 个案结论是否被扩大为一般性结论；
+* 相关关系是否被写成因果关系；
+* 引文是否仍然支持修改后的命题；
+* 负面证据、例外和竞争性解释是否被错误删除。
+
+最终决定仍应由论文作者作出。
+
+---
+
+## 关于自动扫描脚本
+
+仓库中的：
+
+```text
+scripts/scan_defensive_cues.py
+```
+
+只用于寻找可能需要检查的文本位置。
+
+它不是自动评分器，也不能判断某句话一定存在问题。
+
+例如 `may`、`however`、`limitation` 或 `cannot` 本身都不是需要删除的词。真正需要判断的是这些表达在具体上下文中承担什么功能。
+
+因此：
+
+> **自动化可以帮助发现候选项，但不能替代作者对证据和论证边界的判断。**
+
+---
+
+## 免责声明
+
+本项目目前主要用于**学术写作方法、Human–AI collaboration 和 evidence-bound revision workflow 的实验与测试**，不构成对任何论文质量、事实准确性、投稿结果或学术规范合规性的保证。
+
+本项目**不鼓励将 AI 自动生成或大规模改写的学术文本未经作者实质性审阅、核验和承担责任后直接用于投稿**。
+
+使用者应当：
+
+* 对论文中的事实、数据、引文、论证和最终文字承担完整责任；
+* 人工核验 AI 提出的所有实质性修改；
+* 不使用本工具虚构数据、文献、研究过程或研究发现；
+* 遵守所在学校、研究机构、资助机构及目标期刊关于生成式 AI 使用与披露的现行规定；
+* 在期刊要求披露 AI 使用时，按照其政策如实披露；
+* 对涉及未公开研究数据、访谈材料、个人信息或其他敏感材料的上传和处理保持谨慎。
+
+本项目的设计目标是**辅助作者进行受约束、可审计的论文修改，而不是替代作者完成学术写作或学术判断**。
+
+作者不应因为使用本 skill，而降低对证据核验、引用准确性、研究伦理和作者责任的要求。
+
+
 # Evidence-Bound Press-Conference Revision
 
 **Contribution-forward academic revision without overclaiming.**
