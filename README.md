@@ -1,8 +1,10 @@
 # Evidence-Bound-Press-Conference-Revision-Skill
-An evidence-bound academic revision skill for diagnosing and reducing defensive prose without weakening scholarly caution. It surfaces contributions, trims redundant caveats and process narration, preserves claim ceilings, evidence status, scope conditions and rival explanations, and supports auditable, tracked manuscript revision.
+An evidence-bound academic revision skill for QUALITATIVE SOCIAL SCIENCE RESEARCH aimed at diagnosing and reducing defensive prose without weakening scholarly caution. It surfaces contributions, trims redundant caveats and process narration, preserves claim ceilings, evidence status, scope conditions and rival explanations, and supports auditable, tracked manuscript revision.
 
-## 免责声明
+共创者：小红书 [@Lensback's Lab](https://www.xiaohongshu.com/user/profile/64507c470000000012036d99?xsec_token=ABWUzH9007eJF5TPbjU-CiIRMGLlT2G85vOMHwFWcYT2c%3D&xsec_source=pc_search) & [@鸣人学AI](https://www.xiaohongshu.com/user/profile/666940c40000000007005b9a?xsec_token=ABUufMPibMU6GhX3DJ_eOMbCagHIXF0DxRKmT1k5zeba0%3D&xsec_source=pc_search)
+Co-creator：RedNote [@Lensback's Lab](https://www.xiaohongshu.com/user/profile/64507c470000000012036d99?xsec_token=ABWUzH9007eJF5TPbjU-CiIRMGLlT2G85vOMHwFWcYT2c%3D&xsec_source=pc_search) & [@鸣人学AI](https://www.xiaohongshu.com/user/profile/666940c40000000007005b9a?xsec_token=ABUufMPibMU6GhX3DJ_eOMbCagHIXF0DxRKmT1k5zeba0%3D&xsec_source=pc_search)
 
+## 声明
 本项目目前主要用于**学术写作方法、Human–AI collaboration 和 evidence-bound revision workflow 的实验与测试**，不构成对任何论文质量、事实准确性、投稿结果或学术规范合规性的保证。
 
 本项目**不鼓励将 AI 自动生成或大规模改写的学术文本未经作者实质性审阅、核验和承担责任后直接用于投稿**。
