@@ -1,9 +1,46 @@
 # Evidence-Bound-Press-Conference-Revision-Skill
 An evidence-bound academic revision skill for diagnosing and reducing defensive prose without weakening scholarly caution. It surfaces contributions, trims redundant caveats and process narration, preserves claim ceilings, evidence status, scope conditions and rival explanations, and supports auditable, tracked manuscript revision.
 
-## 中文说明
+## 免责声明
 
-`press-conference-revision-evidence-bound` 是一个面向学术论文修改的实验性 skill，主要用于识别和减少论文中的防御性写作，使已经得到证据支持的研究贡献表达得更加直接、清晰。
+本项目目前主要用于**学术写作方法、Human–AI collaboration 和 evidence-bound revision workflow 的实验与测试**，不构成对任何论文质量、事实准确性、投稿结果或学术规范合规性的保证。
+
+本项目**不鼓励将 AI 自动生成或大规模改写的学术文本未经作者实质性审阅、核验和承担责任后直接用于投稿**。
+
+使用者应当：
+
+* 对论文中的事实、数据、引文、论证和最终文字承担完整责任；
+* 人工核验 AI 提出的所有实质性修改；
+* 不使用本工具虚构数据、文献、研究过程或研究发现；
+* 遵守所在学校、研究机构、资助机构及目标期刊关于生成式 AI 使用与披露的现行规定；
+* 在期刊要求披露 AI 使用时，按照其政策如实披露；
+* 对涉及未公开研究数据、访谈材料、个人信息或其他敏感材料的上传和处理保持谨慎。
+
+本项目的设计目标是**辅助作者进行受约束、可审计的论文修改，而不是替代作者完成学术写作或学术判断**。
+
+作者不应因为使用本 skill，而降低对证据核验、引用准确性、研究伦理和作者责任的要求。
+
+## Disclaimer
+
+This project is an experimental tool for exploring academic revision, human–AI collaboration, and evidence-bound writing workflows. It does not provide any guarantee regarding the quality, factual accuracy, publishability, or policy compliance of manuscripts processed with it.
+
+This project does **not** encourage authors to submit AI-generated or extensively AI-rewritten academic text without substantive human review, verification, and authorial responsibility.
+
+Users remain fully responsible for:
+
+* verifying all facts, data, citations, quotations, interpretations, and substantive claims;
+* reviewing and approving all AI-assisted revisions;
+* ensuring that no data, references, research procedures, or findings are fabricated or misrepresented;
+* complying with the current policies of their journals, institutions, funders, and professional bodies regarding the use and disclosure of generative AI;
+* disclosing AI assistance whenever required by the relevant journal or institutional policy; and
+* exercising appropriate care when handling unpublished research materials, interview data, personal information, confidential documents, or other sensitive content.
+
+The purpose of this project is to support **bounded, auditable, human-controlled academic revision**, not to replace scholarly judgment, authorship, or accountability.
+
+Use of this tool does not reduce the author's responsibility for evidentiary integrity, citation accuracy, research ethics, or the final submitted manuscript.
+
+
+`press-conference-revision-evidence-bound` 是一个面向【质性研究】学术论文修改的实验性skill，主要用于识别和减少论文中的防御性写作，使已经得到证据支持的研究贡献表达得更加直接、清晰。
 
 它关注的不是把论文写得更强势，而是：
 
@@ -101,25 +138,6 @@ scripts/scan_defensive_cues.py
 > **自动化可以帮助发现候选项，但不能替代作者对证据和论证边界的判断。**
 
 ---
-
-## 免责声明
-
-本项目目前主要用于**学术写作方法、Human–AI collaboration 和 evidence-bound revision workflow 的实验与测试**，不构成对任何论文质量、事实准确性、投稿结果或学术规范合规性的保证。
-
-本项目**不鼓励将 AI 自动生成或大规模改写的学术文本未经作者实质性审阅、核验和承担责任后直接用于投稿**。
-
-使用者应当：
-
-* 对论文中的事实、数据、引文、论证和最终文字承担完整责任；
-* 人工核验 AI 提出的所有实质性修改；
-* 不使用本工具虚构数据、文献、研究过程或研究发现；
-* 遵守所在学校、研究机构、资助机构及目标期刊关于生成式 AI 使用与披露的现行规定；
-* 在期刊要求披露 AI 使用时，按照其政策如实披露；
-* 对涉及未公开研究数据、访谈材料、个人信息或其他敏感材料的上传和处理保持谨慎。
-
-本项目的设计目标是**辅助作者进行受约束、可审计的论文修改，而不是替代作者完成学术写作或学术判断**。
-
-作者不应因为使用本 skill，而降低对证据核验、引用准确性、研究伦理和作者责任的要求。
 
 
 # Evidence-Bound Press-Conference Revision
