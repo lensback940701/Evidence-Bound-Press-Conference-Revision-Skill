@@ -248,18 +248,11 @@ Revision is followed by an independent regression pass.
 
 This is not a proofreading step. Its purpose is to detect whether rhetorical improvement has accidentally altered the manuscript's epistemic structure.
 
-```mermaid
-flowchart TD
-    R["Revised sentence"] --> C{"Claim delta<br/>same or narrower?"}
-    C -- No --> X["Revert / Query"]
-    C -- Yes --> E{"Evidence status<br/>preserved?"}
-    E -- No --> X
-    E -- Yes --> S{"Citation / source role<br/>preserved?"}
-    S -- No --> X
-    S -- Yes --> P{"Scope & hierarchy<br/>preserved?"}
-    P -- No --> X
-    P -- Yes --> K["Revision passes<br/>evidence-bound regression"]
-```
+<p align="center">
+  <img src="assets/readme/audit-loop.png"
+       alt="Evidence-bound audit and regression loop"
+       width="900">
+</p>
 
 The regression checks:
 
