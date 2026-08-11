@@ -1,0 +1,4 @@
+interface:
+  display_name: "Evidence-Bound Press Revision"
+  short_description: "Contribution-forward editing without overclaiming"
+  default_prompt: "Use $press-conference-revision-evidence-bound to batch-audit this manuscript for defensive writing while preserving all evidence limits."
