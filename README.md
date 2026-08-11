@@ -91,6 +91,10 @@ Contradiction, delay, non-adoption, decoupling, reversal, failed implementation,
 
 A stylistic revision must not silently change what a citation, quotation, date, number, source-specific term, table, figure, or footnote is being asked to support.
 
+<p align="center">
+  <img src="assets/readme/principle.png" alt="Evidence-Bound Press-Conference Revision" width="900">
+</p>
+
 ---
 
 ## What the skill does
