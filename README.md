@@ -1,6 +1,10 @@
 # Evidence-Bound-Press-Conference-Revision-Skill
 An evidence-bound academic revision skill for **QUALITATIVE SOCIAL SCIENCE RESEARCH** aimed at **diagnosing and reducing defensive prose** without weakening scholarly caution. It surfaces contributions, trims redundant caveats and process narration, preserves claim ceilings, evidence status, scope conditions and rival explanations, and supports auditable, tracked manuscript revision.
 
+# 证据约束型“发布会式”质性论文修订 Skill
+这是一个面向质性社会科学研究的证据约束型学术论文修订 Skill，旨在识别并减少防御性写作，同时不削弱必要的学术审慎。
+它通过突出论文的核心贡献、压缩重复性限定与研究过程叙述，同时严格保留主张上限、证据状态、适用范围与边界条件以及竞争性解释，支持可审计、可追踪的论文修订流程。
+
 共创者：小红书 [@Lensback's Lab](https://www.xiaohongshu.com/user/profile/64507c470000000012036d99?xsec_token=ABWUzH9007eJF5TPbjU-CiIRMGLlT2G85vOMHwFWcYT2c%3D&xsec_source=pc_search) & [@鸣人学AI](https://www.xiaohongshu.com/user/profile/666940c40000000007005b9a?xsec_token=ABUufMPibMU6GhX3DJ_eOMbCagHIXF0DxRKmT1k5zeba0%3D&xsec_source=pc_search)
 Co-creator：RedNote [@Lensback's Lab](https://www.xiaohongshu.com/user/profile/64507c470000000012036d99?xsec_token=ABWUzH9007eJF5TPbjU-CiIRMGLlT2G85vOMHwFWcYT2c%3D&xsec_source=pc_search) & [@鸣人学AI](https://www.xiaohongshu.com/user/profile/666940c40000000007005b9a?xsec_token=ABUufMPibMU6GhX3DJ_eOMbCagHIXF0DxRKmT1k5zeba0%3D&xsec_source=pc_search)
 
